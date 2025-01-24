@@ -1,11 +1,11 @@
-# PDF Generator
+# PDF Tool
 
 A Python project that converts Markdown content into PDFs using `FPDF` and `markdown2`. Managed with [UV](https://docs.astral.sh/uv/), a fast and efficient Python package manager.
 
 ## Project Structure
 
 ```
-project-root/
+pdf-tool/
 ├── fonts/
 │   ├── DejaVuSansCondensed.ttf
 │   └── DejaVuSansCondensed-Bold.ttf
@@ -37,7 +37,7 @@ project-root/
 
 ## Requirements
 
-- Python 3.11 or higher
+- Python 3.12 or higher
 - [UV](https://docs.astral.sh/uv/) package manager
 
 ## Installation
@@ -45,15 +45,14 @@ project-root/
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/pdf-generator.git
-   cd pdf-generator
+   git clone https://github.com/MuhammadRaffey/pdf-tool.git
+   cd pdf-tool
    ```
 
 2. **Install UV** (if not already installed):
 
-   ```bash
-   curl -LsSf https://astral.sh/uv/install.sh | sh
-   ```
+   Follow the instructions in the UV documentation to install it on your system:
+   [UV-Installation](https://docs.astral.sh/uv/getting-started/installation/)
 
 3. **Set Up the Project Environment**:
 
@@ -91,7 +90,7 @@ For example, to add `requests`:
 uv add requests
 ```
 
-This will update the `pyproject.toml` file and install the package in your project's virtual environment. ([docs.astral.sh](https://docs.astral.sh/uv/guides/projects/?utm_source=chatgpt.com))
+This will update the `pyproject.toml` file and install the package in your project's virtual environment. ([docs.astral.sh](https://docs.astral.sh/uv/guides/projects/))
 
 ## License
 
