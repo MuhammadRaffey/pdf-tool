@@ -1,0 +1,11 @@
+[project]
+name = "pdf-tool"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fpdf>=1.7.2",
+    "markdown2>=2.5.2",
+    "types-fpdf2>=2.8.2.20241223",
+]
