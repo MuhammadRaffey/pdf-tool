@@ -9,7 +9,6 @@ pdf-tool/
 ├── fonts/
 │   ├── DejaVuSansCondensed.ttf
 │   └── DejaVuSansCondensed-Bold.ttf
-├── .env
 ├── .gitignore
 ├── .python-version
 ├── main.py
